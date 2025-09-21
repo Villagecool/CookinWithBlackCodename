@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="egger.png"><SubTexture name="egger idle0000" x="450" y="385" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0001" x="660" y="0" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0002" x="660" y="185" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0003" x="660" y="370" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0004" x="0" y="199" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0005" x="150" y="199" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0006" x="300" y="199" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0007" x="510" y="0" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0008" x="0" y="571" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0009" x="153" y="571" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0010" x="306" y="571" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0011" x="459" y="571" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0012" x="459" y="571" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0013" x="612" y="571" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0014" x="808" y="0" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0015" x="808" y="185" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0016" x="808" y="370" width="148" height="185" frameX="-56" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0017" x="510" y="186" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0018" x="0" y="385" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0019" x="150" y="385" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0020" x="300" y="385" width="150" height="186" frameX="-55" frameY="-77" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0021" x="0" y="756" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0022" x="153" y="756" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0023" x="306" y="756" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger idle0024" x="459" y="756" width="153" height="185" frameX="-54" frameY="-78" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger left0000" x="612" y="756" width="190" height="162" frameX="-16" frameY="-101" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger left0001" x="956" y="0" width="190" height="162" frameX="-16" frameY="-101" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger left0002" x="956" y="486" width="175" height="158" frameX="-29" frameY="-105" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger left0003" x="956" y="644" width="175" height="158" frameX="-29" frameY="-105" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger down0000" x="674" y="941" width="164" height="152" frameX="-47" frameY="-110" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger down0001" x="838" y="941" width="164" height="152" frameX="-47" frameY="-110" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger down0002" x="0" y="941" width="162" height="158" frameX="-50" frameY="-105" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger down0003" x="162" y="941" width="162" height="158" frameX="-50" frameY="-105" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger up0000" x="0" y="0" width="126" height="199" frameX="-66" frameY="-63" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger up0001" x="126" y="0" width="126" height="199" frameX="-66" frameY="-63" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger up0002" x="252" y="0" width="129" height="192" frameX="-65" frameY="-71" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger up0003" x="381" y="0" width="129" height="192" frameX="-65" frameY="-71" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger up0004" x="381" y="0" width="129" height="192" frameX="-65" frameY="-71" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger right0000" x="956" y="162" width="190" height="162" frameX="-46" frameY="-101" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger right0001" x="956" y="324" width="190" height="162" frameX="-46" frameY="-101" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger right0002" x="324" y="941" width="175" height="158" frameX="-48" frameY="-105" frameWidth="252" frameHeight="298" />
+<SubTexture name="egger right0003" x="499" y="941" width="175" height="158" frameX="-48" frameY="-105" frameWidth="252" frameHeight="298" />
+</TextureAtlas>

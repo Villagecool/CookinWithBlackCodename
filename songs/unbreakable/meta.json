@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FCF3E0",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "eg",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Unbreakable",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 115
+}

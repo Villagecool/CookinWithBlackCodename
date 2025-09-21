@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="black" camx="-300" camy="100" isPlayer="true" color="#2E2630" holdTime="2">
+	<anim name="idle" anim="idle" x="-20" y="-192"/>
+	<anim name="singUP" anim="up" x="55" y="-115"/>
+	<anim name="singRIGHT" anim="left" x="-43" y="-192"/>
+	<anim name="singLEFT" anim="right" x="40" y="-197"/>
+	<anim name="singDOWN" anim="down" x="27" y="-193"/>
+	<anim name="singUP-alt" anim="Guitarup" x="-27" y="-37"/>
+	<anim name="singRIGHT-alt" anim="Guitarleft" x="-30" y="-202"/>
+	<anim name="singLEFT-alt" anim="Guitarright" x="123" y="-192"/>
+	<anim name="singDOWN-alt" anim="Guitardown" x="-64" y="-197"/>
+</character>
