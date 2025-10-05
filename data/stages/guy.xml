@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="guy" zoom="0.9">
+	<sprite x="-400" scroll="0" sprite="gray" y="-400" scale="40" name="bg"/>
+	<sprite x="802" sprite="shadow" y="547" type="none" scaley="0.25" name="shadow"/>
+	<sprite x="-100" sprite="shadow" y="544" type="none" scaley="0.25" name="shadow2"/>
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+	<sprite x="224" scroll="0.5" sprite="guy/holy" y="-56" alpha="0" scale="4" name="holy"/>
+	<sprite x="350" scroll="0" sprite="guy/fire" y="200" type="beat" alpha="0" scale="3" name="fire"/>
+	<sprite x="417" scroll="1.1" sprite="guy/cuh" y="56" alpha="0" scale="2" name="cuh"/>
+	<sprite x="453" scroll="0" sprite="guy/he can" y="190" alpha="0" scale="2" name="hecan"/>
+	<sprite x="-1353" scroll="0" sprite="guy/defaultdance" y="-123" alpha="0" scale="4" angle="0" name="defaultdance"/>
+	<sprite x="453" scroll="0" sprite="guy/artistwhocantsingvsartistwhocansing" alpha="0" y="190" scale="2" name="artist">
+        <anim name="1" anim="1" loop="true"/>
+        <anim name="2" anim="2" loop="true"/>
+        <anim name="3" anim="3" loop="true"/>
+        <anim name="4" anim="4" loop="true"/>
+        <anim name="5" anim="5" loop="true"/>
+        <anim name="6" anim="6" loop="true"/>
+        <anim name="7" anim="7" loop="true"/>
+    </sprite>
+</stage>

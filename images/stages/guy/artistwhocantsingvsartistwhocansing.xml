@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="artistwhocantsingvsartistwhocansing.png"><SubTexture name="10000" x="558" y="130" width="180" height="62" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+<SubTexture name="20000" x="558" y="192" width="279" height="62" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+<SubTexture name="30000" x="558" y="0" width="279" height="130" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+<SubTexture name="40000" x="279" y="288" width="279" height="132" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+<SubTexture name="50000" x="0" y="288" width="279" height="214" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+<SubTexture name="60000" x="279" y="0" width="279" height="286" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+<SubTexture name="70000" x="0" y="0" width="279" height="288" frameX="-19" frameY="-8" frameWidth="318" frameHeight="301" />
+</TextureAtlas>
