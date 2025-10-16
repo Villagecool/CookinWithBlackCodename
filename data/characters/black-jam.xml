@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="blackjam" icon="black" color="#000000">
+	<anim name="idle" anim="IdleBlack"/>
+	<anim name="singDOWN" anim="DownBlack" x="-9" y="-54"/>
+	<anim name="singRIGHT" anim="RightBlack" x="1" y="5"/>
+	<anim name="singLEFT" anim="LeftBlack" x="6" y="4"/>
+	<anim name="singUP" anim="UpBlack" x="9" y="-58"/>
+</character>

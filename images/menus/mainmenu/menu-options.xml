@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu-options.png"><SubTexture name="options0000" x="0" y="1689" width="547" height="410" frameX="-117" frameY="-361" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="options0001" x="1526" y="1271" width="549" height="412" frameX="-116" frameY="-360" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="options-sel0000" x="1634" y="633" width="581" height="427" frameX="-100" frameY="-344" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="options-sel0001" x="834" y="636" width="579" height="424" frameX="-101" frameY="-345" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="story0000" x="818" y="0" width="816" height="635" frameX="-358" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="story0001" x="0" y="0" width="818" height="636" frameX="-357" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="story-sel0000" x="0" y="636" width="834" height="635" frameX="-341" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="story-sel0001" x="1634" y="0" width="832" height="633" frameX="-342" frameY="-1" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="credits0000" x="1286" y="1689" width="737" height="401" frameX="-646" frameY="-563" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="credits0001" x="547" y="1689" width="739" height="403" frameX="-645" frameY="-562" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="credits-sel0000" x="0" y="1271" width="764" height="418" frameX="-629" frameY="-546" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="credits-sel0001" x="764" y="1271" width="762" height="416" frameX="-630" frameY="-547" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="free0000" x="2466" y="0" width="755" height="270" frameX="-44" frameY="-715" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="free0001" x="1576" y="2099" width="757" height="272" frameX="-43" frameY="-714" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="free-sel0000" x="0" y="2099" width="789" height="287" frameX="-27" frameY="-698" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="free-sel0001" x="789" y="2099" width="787" height="284" frameX="-28" frameY="-699" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

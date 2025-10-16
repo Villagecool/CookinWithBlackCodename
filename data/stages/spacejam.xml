@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="spacejam" zoom="0.3">
+	<sprite x="-194" sprite="spacejam/spaceship-fire" y="229" scale="0.59" name="fire"/>
+	<sprite x="0.2410475308575" sprite="spacejam/spaceship-fire" y="-96.6666660661908"  scale="0.407713496968386" name="fire2"/>
+	<sprite x="5170.23613592768" sprite="spacejam/store" y="-524.354159824439" scale="2.48437533627758" name="store-ig" alpha="0"/>
+	<sprite type="none" sprite="spacejam/spaceship-back" name="shit-back"/>
+	<girlfriend x="-1302" y="137"/>
+	<dad x="1230" y="50"/>
+	<boyfriend x="888" y="50"/>
+	<sprite type="none" sprite="spacejam/spaceship" name="shit-front"/>
+</stage>

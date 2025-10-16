@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#2A1E52",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "black",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Space Jam",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 144
+}

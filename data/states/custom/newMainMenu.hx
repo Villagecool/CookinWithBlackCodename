@@ -7,80 +7,87 @@ import flixel.util.FlxColor;
 import flixel.text.FlxText.FlxTextFormat;
 import flixel.text.FlxText.FlxTextBorderStyle;
 
-var menuBG:FlxSprite = null;
-var menuOptions:Array<String> = ['menus/main/plays','menus/main/actors','menus/main/settings','menus/main/authors'];
-var curIndex = 0;
+var menuOptions:Array<String> = ['story','free','credits','options'];
+var menuObjects:Array<Dynamic> = [];
+var curSelected = 0;
+var versionShit:FlxText;
+var logo:FunkinSprite;
 
 function create()
 {
-   trace("This is the custom state.");
+			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+  FlxG.camera.bgColor = 0xFF999999;
+  FlxG.mouse.visible = true;
 
-   menuBG = new FlxSprite(0,0);
-   menuBG.loadGraphic(Paths.image(menuOptions[0]));
+    logo = new FunkinSprite(0,0, Paths.image('menus/logoBumpin'));
+	logo.addAnim('idle', '', 24);
+    logo.playAnim('idle');
+    logo.scrollFactor.set(0.5,0.5);
+    logo.screenCenter();
+    logo.x += 600;
+    add(logo);
+
+   var menuBG:FlxSprite = new FlxSprite(0,0);
+   menuBG.loadGraphic(Paths.image('menus/mainmenu/tabel'));
+   menuBG.screenCenter();
    add(menuBG);
 
-	var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Cooking With Black", 12);
+   var menuBGE:FlxSprite = new FlxSprite(0,0);
+   menuBGE.loadGraphic(Paths.image('menus/mainmenu/extras'));
+   menuBGE.screenCenter();
+   add(menuBGE);
+
+	versionShit = new FlxText(12, FlxG.height - 64, 0, "Cooking With Black", 12);
 	//versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-	add(versionShit);
-    
-	var versionShita:FlxText = new FlxText(12, FlxG.height - 44, 0, "THIS IS CURRENTLY A TEMPLATE I FOUND, TO BE FULLY FLESHED OUT IN THE FUTURE", 12);
-	//versionShita.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-	add(versionShita);
+
+    for (i => x in menuOptions) {
+        var thing:FunkinSprite = new FunkinSprite(0,0, Paths.image('menus/mainmenu/menu-options'));
+		thing.addAnim('idle', x+'0', 3, true);
+		thing.addAnim('selected', x+"-sel", 12, true);
+		thing.playAnim('idle');
+        thing.ID = i;
+        thing.screenCenter();
+        add(thing);
+        menuObjects.push(thing);
+    }
+	//add(versionShit);
 }
 
+var lastCurSelected = 0;
 function update(elapsed:Float)
 {
-    if(FlxG.keys.justPressed.ESCAPE)
+    FlxG.camera.zoom = 0.6/*-(Math.abs(distance(FlxG.width/2, FlxG.height/2, FlxG.mouse.screenX, FlxG.mouse.screenY))*0.00005)*/;
+    FlxG.camera.scroll.x = (FlxG.mouse.screenX-FlxG.width/2)*0.05;
+    FlxG.camera.scroll.y = (FlxG.mouse.screenY-FlxG.height/2)*0.02;
+
+    //versionShit.text = FlxG.mouse.x + ', ' + FlxG.mouse.y;
+
+    //if(FlxG.keys.justPressed.ESCAPE)
+    //{
+    //    FlxG.switchState(new TitleState());
+    //}
+
+    if(FlxG.keys.justPressed.RIGHT || FlxG.keys.justPressed.DOWN) changeSel(1);
+    if(FlxG.keys.justPressed.LEFT || FlxG.keys.justPressed.UP) changeSel(-1);
+
+    if((FlxG.keys.justPressed.ENTER || FlxG.mouse.justPressed) && curSelected != -1 )
     {
-        FlxG.switchState(new TitleState());
-    }
-
-    if(FlxG.keys.justPressed.RIGHT || FlxG.keys.justPressed.DOWN)
-    {
-        curIndex++;
-
-        FlxG.sound.play(Paths.sound('scrollMenu'));
-
-        if(curIndex >= 3)
-        {
-            curIndex = 3;
-        }
-
-        trace(curIndex);
-    }
-
-    if(FlxG.keys.justPressed.LEFT || FlxG.keys.justPressed.UP)
-    {
-        curIndex--;
-
-        FlxG.sound.play(Paths.sound('scrollMenu'));
-
-        if(curIndex <= 0)
-        {
-            curIndex = 0;
-        }
-
-        trace(curIndex);
-    }
-
-    switch(curIndex)
-    {
-        case 0:
-            menuBG.loadGraphic(Paths.image(menuOptions[0]));
-        case 1:
-            menuBG.loadGraphic(Paths.image(menuOptions[1]));
-        case 2:
-            menuBG.loadGraphic(Paths.image(menuOptions[2]));
-        case 3:
-            menuBG.loadGraphic(Paths.image(menuOptions[3]));
-    }
-
-    if(FlxG.keys.justPressed.ENTER)
-    {
-        FlxG.sound.play(Paths.sound('confirmMenu'));
+        FlxG.sound.play(Paths.sound('menu/confirm'));
 
         switchCrossState();
     }
+
+    if (FlxG.mouse.justMoved) {
+        if (mouseInBox([82,-198,817,312])) curSelected = 0;
+        else if (mouseInBox([-260,547,425,775])) curSelected = 1;
+        else if (mouseInBox([400,400,1000,700])) curSelected = 2;
+        else if (mouseInBox([-179,225,278,482])) curSelected = 3;
+        else curSelected = -1;
+
+        changeSel();
+    }
+    if (lastCurSelected != curSelected) {FlxG.sound.play(Paths.sound("menu/volume"), 0.5);}
+    lastCurSelected = curSelected;
 
     if(controls.SWITCHMOD)
     {
@@ -94,17 +101,39 @@ function update(elapsed:Float)
 	}
 }
 
+function changeSel(to:Int = 0) {
+    curSelected = FlxMath.wrap(curSelected + to, -1, menuOptions.length - 1);
+    for (mf in menuObjects) {
+		mf.playAnim('idle');
+    }
+    if (curSelected != -1) menuObjects[curSelected].playAnim('selected');
+}
 function switchCrossState()
 {
-    switch(curIndex)
+    switch(curSelected)
     {
         case 0:
             FlxG.switchState(new StoryMenuState());
         case 1:
             FlxG.switchState(new FreeplayState());
-        case 2:
-            FlxG.switchState(new OptionsMenu());
         case 3:
+            FlxG.switchState(new OptionsMenu());
+        case 2:
             FlxG.switchState(new CreditsMain());
     }
+}
+function distance(x1, y1, x2, y2) {
+  var dx:Float = x2 - x1;
+  var dy:Float = y2 - y1;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
+var startMousePos:FlxPoint = new FlxPoint();
+function mouseInBox(coords:Array<Int>) {
+	//FlxG.mouse.getScreenPosition(FlxG.camera, startMousePos);
+    return (FlxG.mouse.x >= coords[0] && FlxG.mouse.x <= coords[2] &&
+			FlxG.mouse.y >= coords[1] && FlxG.mouse.y <= coords[3]);
+}
+function beatHit(curBeat:Int) {
+    logo.playAnim('idle', true);
 }

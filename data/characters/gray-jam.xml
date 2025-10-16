@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="grayjam" flipX="true" camx="200" camy="200" isPlayer="true" icon="gray" color="#5F6181">
+	<anim name="idle" anim="GreyIdle" x="-16" y="-165"/>
+	<anim name="singDOWN" anim="GreyDown" x="-21" y="-173"/>
+	<anim name="singRIGHT" anim="GreyRight" x="-22" y="-162"/>
+	<anim name="singLEFT" anim="GreyLeft" x="-9" y="-160"/>
+	<anim name="singUP" anim="GreyUp" x="-22" y="-163"/>
+	<anim name="spin" anim="GreySpin" x="-19" y="-121" loop="true"/>
+</character>

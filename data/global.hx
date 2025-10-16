@@ -4,6 +4,7 @@ function update(elapsed)
 
 static var redirectStates:Map<FlxState, String> = [
     MainMenuState => 'custom/newMainMenu'
+    //TitleState => 'custom/newMainMenu'
 ];
 
 function preStateSwitch()

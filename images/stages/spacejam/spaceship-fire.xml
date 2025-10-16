@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SpaceJamNew.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spaceship_fire0000" x="0" y="0" width="810" height="662" frameX="-35" frameY="-64" frameWidth="845" frameHeight="726"/>
+	<SubTexture name="spaceship_fire0001" x="810" y="0" width="773" height="685" frameX="0" frameY="0" frameWidth="845" frameHeight="726"/>
+</TextureAtlas>

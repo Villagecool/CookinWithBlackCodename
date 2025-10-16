@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SpaceJamNew.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GreyDown0000" x="0" y="0" width="279" height="364"/>
+	<SubTexture name="GreyDown0001" x="0" y="0" width="279" height="364"/>
+	<SubTexture name="GreyDown0002" x="279" y="0" width="272" height="363" frameX="0" frameY="-1" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyDown0003" x="279" y="0" width="272" height="363" frameX="0" frameY="-1" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyDown0004" x="551" y="0" width="272" height="362" frameX="-1" frameY="-2" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyDown0005" x="551" y="0" width="272" height="362" frameX="-1" frameY="-2" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyDown0006" x="551" y="0" width="272" height="362" frameX="-1" frameY="-2" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyDown0007" x="551" y="0" width="272" height="362" frameX="-1" frameY="-2" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyDown0008" x="551" y="0" width="272" height="362" frameX="-1" frameY="-2" frameWidth="279" frameHeight="364"/>
+	<SubTexture name="GreyIdle0000" x="823" y="0" width="273" height="371"/>
+	<SubTexture name="GreyIdle0001" x="823" y="0" width="273" height="371"/>
+	<SubTexture name="GreyIdle0002" x="1096" y="0" width="270" height="363" frameX="-2" frameY="-8" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0003" x="1096" y="0" width="270" height="363" frameX="-2" frameY="-8" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0004" x="1366" y="0" width="268" height="366" frameX="-3" frameY="-5" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0005" x="1366" y="0" width="268" height="366" frameX="-3" frameY="-5" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0006" x="1634" y="0" width="270" height="370" frameX="0" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0007" x="1634" y="0" width="270" height="370" frameX="0" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0008" x="0" y="371" width="270" height="370" frameX="-1" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0009" x="0" y="371" width="270" height="370" frameX="-1" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0010" x="270" y="371" width="269" height="370" frameX="-2" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0011" x="270" y="371" width="269" height="370" frameX="-2" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0012" x="270" y="371" width="269" height="370" frameX="-2" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyIdle0013" x="270" y="371" width="269" height="370" frameX="-2" frameY="-1" frameWidth="273" frameHeight="371"/>
+	<SubTexture name="GreyLeft0000" x="539" y="371" width="260" height="374" frameX="-11" frameY="0" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0001" x="539" y="371" width="260" height="374" frameX="-11" frameY="0" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0002" x="799" y="371" width="270" height="371" frameX="0" frameY="-3" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0003" x="799" y="371" width="270" height="371" frameX="0" frameY="-3" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0004" x="1069" y="371" width="270" height="372" frameX="-1" frameY="-2" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0005" x="1069" y="371" width="270" height="372" frameX="-1" frameY="-2" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0006" x="1069" y="371" width="270" height="372" frameX="-1" frameY="-2" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0007" x="1069" y="371" width="270" height="372" frameX="-1" frameY="-2" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyLeft0008" x="1069" y="371" width="270" height="372" frameX="-1" frameY="-2" frameWidth="271" frameHeight="374"/>
+	<SubTexture name="GreyRight0000" x="1339" y="371" width="295" height="375" frameX="-5" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0001" x="1339" y="371" width="295" height="375" frameX="-5" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0002" x="1634" y="371" width="282" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0003" x="1634" y="371" width="282" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0004" x="0" y="746" width="284" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0005" x="0" y="746" width="284" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0006" x="0" y="746" width="284" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0007" x="0" y="746" width="284" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreyRight0008" x="0" y="746" width="284" height="375" frameX="0" frameY="0" frameWidth="300" frameHeight="375"/>
+	<SubTexture name="GreySpin0000" x="284" y="746" width="281" height="372" frameX="-15" frameY="-58" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0001" x="284" y="746" width="281" height="372" frameX="-15" frameY="-58" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0002" x="565" y="746" width="292" height="376" frameX="0" frameY="-26" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0003" x="565" y="746" width="292" height="376" frameX="0" frameY="-26" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0004" x="857" y="746" width="287" height="385" frameX="-4" frameY="-25" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0005" x="857" y="746" width="287" height="385" frameX="-4" frameY="-25" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0006" x="1144" y="746" width="258" height="416" frameX="-24" frameY="0" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0007" x="1144" y="746" width="258" height="416" frameX="-24" frameY="0" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0008" x="1402" y="746" width="278" height="386" frameX="-25" frameY="-21" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0009" x="1402" y="746" width="278" height="386" frameX="-25" frameY="-21" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0010" x="1680" y="746" width="272" height="391" frameX="-19" frameY="-19" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreySpin0011" x="1680" y="746" width="272" height="391" frameX="-19" frameY="-19" frameWidth="303" frameHeight="430"/>
+	<SubTexture name="GreyUp0000" x="0" y="1162" width="264" height="367" frameX="-3" frameY="-3" frameWidth="276" frameHeight="370"/>
+	<SubTexture name="GreyUp0001" x="0" y="1162" width="264" height="367" frameX="-3" frameY="-3" frameWidth="276" frameHeight="370"/>
+	<SubTexture name="GreyUp0002" x="264" y="1162" width="276" height="370"/>
+	<SubTexture name="GreyUp0003" x="264" y="1162" width="276" height="370"/>
+	<SubTexture name="GreyUp0004" x="540" y="1162" width="274" height="368" frameX="0" frameY="-2" frameWidth="276" frameHeight="370"/>
+	<SubTexture name="GreyUp0005" x="540" y="1162" width="274" height="368" frameX="0" frameY="-2" frameWidth="276" frameHeight="370"/>
+	<SubTexture name="GreyUp0006" x="540" y="1162" width="274" height="368" frameX="0" frameY="-2" frameWidth="276" frameHeight="370"/>
+	<SubTexture name="GreyUp0007" x="540" y="1162" width="274" height="368" frameX="0" frameY="-2" frameWidth="276" frameHeight="370"/>
+	<SubTexture name="GreyUp0008" x="540" y="1162" width="274" height="368" frameX="0" frameY="-2" frameWidth="276" frameHeight="370"/>
+</TextureAtlas>
