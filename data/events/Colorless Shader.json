@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Shader On?",
+            "type": "Bool",
+            "defaultValue": "true"
+        }
+    ]
+}
