@@ -6,26 +6,28 @@ var space:FlxBackdrop;
 var spacef:FlxBackdrop;
 var changing:Float = 0;
 var black:FlxSprite;
+var sexySpace:CustomShader;
 
 function create() {
+    
+    sexySpace = new CustomShader("space");
+
     space = new FlxBackdrop().loadGraphic(Paths.image('stages/spacejam/space-1'));
     space.screenCenter();
-    space.velocity.x = -10000;
-    space.velocity.y = -100;
     space.cameras = [camGame];
-    space.scale.x = space.scale.y = 1.25;
+    space.scale.x = space.scale.y = 8;
     //add(space);
     insert(0,space);
+    space.shader = sexySpace;
     
     spacef = new FlxBackdrop().loadGraphic(Paths.image('stages/spacejam/space-f-1'));
     spacef.screenCenter();
-    spacef.velocity.x = -5000;
-    spacef.velocity.y = -50;
-    spacef.alpha = 0.2;
-    spacef.scale.x = spacef.scale.y = 3;
+    spacef.alpha = 0.1;
+    spacef.scale.x = spacef.scale.y = 8;
     spacef.cameras = [camGame];
+    spacef.shader = sexySpace;
     //add(spacef);
-    insert(2,spacef);
+    //insert(2,spacef);
 
     
 	black = new FlxSprite(0, 0).makeSolid(FlxG.width, FlxG.height, FlxColor.BLACK);
@@ -40,7 +42,14 @@ function postCreate() {
     stage.getSprite("fire").blend = BlendMode.ADD;
     stage.getSprite("fire2").blend = BlendMode.ADD;
 }
-function update() {
+var __timer:Float = 0; 
+
+function update(elapsed:Float) {
+    if (curStep < 1952) __timer += elapsed;
+    else __timer += elapsed*0.01;
+    
+    sexySpace.iTime = __timer;
+
     changing+=0.05;
     dad.y = boyfriend.y = 50 + Math.sin(changing)*20;
     stage.getSprite("shit-front").y = Math.sin(changing)*20;
@@ -66,11 +75,12 @@ function stepHit(curStep) {
     }
 	if (curStep == 1952) {
 		black.visible = false;
-        space.velocity.x = -50;
-        space.velocity.y = -5;
-        spacef.velocity.x = -100;
-        spacef.velocity.y = -10;
-        spacef.alpha = 0.5;
+        //space.velocity.x = -50;
+        //space.velocity.y = -5;
+        //spacef.velocity.x = -100;
+        //spacef.velocity.y = -10;
+        //spacef.alpha = 0.5;
+        sexySpace.speed = 0.001;
         
         space.loadGraphic(Paths.image('stages/spacejam/space-2'));
         spacef.loadGraphic(Paths.image('stages/spacejam/space-f-2'));
