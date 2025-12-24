@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="MaroonV2" isPlayer="true" color="#000000">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="down" x="114" y="-46"/>
+	<anim name="singLEFT" anim="right" x="176" y="-15"/>
+	<anim name="singRIGHT" anim="left" x="219"/>
+	<anim name="singUP" anim="up" x="81" y="83"/>
+</character>

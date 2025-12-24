@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#640B4E",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "maroon",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Bakery Brawl",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 155
+}
