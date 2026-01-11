@@ -3,7 +3,8 @@ function update(elapsed)
         FlxG.resetState();
 
 static var redirectStates:Map<FlxState, String> = [
-    MainMenuState => 'custom/newMainMenu'
+    MainMenuState => 'custom/newMainMenu',
+    StoryMenuState => 'custom/newStoryState'
     //TitleState => 'custom/newMainMenu'
 ];
 

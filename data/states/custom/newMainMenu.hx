@@ -15,7 +15,7 @@ var logo:FunkinSprite;
 
 function create()
 {
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+  CoolUtil.playMenuSong();
   FlxG.camera.bgColor = 0xFF999999;
   FlxG.mouse.visible = true;
 
