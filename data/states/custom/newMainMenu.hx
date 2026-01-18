@@ -89,6 +89,9 @@ function update(elapsed:Float)
     if (lastCurSelected != curSelected) {FlxG.sound.play(Paths.sound("menu/volume"), 0.5);}
     lastCurSelected = curSelected;
 
+    if ((controls.BACK || FlxG.keys.justPressed.ESCAPE)) {
+        FlxG.switchState(new TitleState());
+    }
     if(controls.SWITCHMOD)
     {
         persistentUpdate = !(persistentDraw = true);

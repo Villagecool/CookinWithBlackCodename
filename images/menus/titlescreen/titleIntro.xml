@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="titleIntro.png"><SubTexture name="10000" x="0" y="0" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="10001" x="640" y="0" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="10002" x="0" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="20000" x="640" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="20001" x="0" y="720" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="30000" x="640" y="720" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="30001" x="1280" y="0" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="30002" x="1280" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="30003" x="1280" y="720" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="50000" x="0" y="1080" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="50001" x="640" y="1080" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="50002" x="1280" y="1080" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="50003" x="0" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="50004" x="640" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="50005" x="1280" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="60000" x="1920" y="0" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="60001" x="1920" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="70000" x="1920" y="720" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="70001" x="0" y="1800" width="640" height="239" frameX="0" frameY="-121" frameWidth="640" frameHeight="360" />
+<SubTexture name="70002" x="640" y="1800" width="640" height="238" frameX="0" frameY="-122" frameWidth="640" frameHeight="360" />
+<SubTexture name="70003" x="1920" y="1080" width="640" height="288" frameX="0" frameY="-72" frameWidth="640" frameHeight="360" />
+<SubTexture name="70004" x="1920" y="1368" width="640" height="246" frameX="0" frameY="-114" frameWidth="640" frameHeight="360" />
+<SubTexture name="80000" x="1920" y="1614" width="640" height="184" frameX="0" frameY="-176" frameWidth="640" frameHeight="360" />
+<SubTexture name="80001" x="1280" y="1800" width="640" height="131" frameX="0" frameY="-229" frameWidth="640" frameHeight="360" />
+<SubTexture name="90000" x="1280" y="1800" width="640" height="131" frameX="0" frameY="-229" frameWidth="640" frameHeight="360" />
+</TextureAtlas>

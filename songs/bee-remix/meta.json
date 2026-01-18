@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FFFFFF",
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"normal"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Bee Remix",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 120
+}
