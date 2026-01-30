@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/" name="spacejam" zoom="0.3">
+	<sprite x="1390.22855586082" sprite="spacejam/earth" y="187.177242330404" type="none" scale="2" name="earth"/>
+	<sprite x="1873.96830859561" sprite="spacejam/polusgg" y="-321.489610360904" type="none" scale="1.5" name="polus"/>
+	<sprite x="1305.92557011199" sprite="spacejam/mira" y="-85.6918152686708" type="none" scale="2" name="mira"/>
+	<sprite x="589.087897519784" sprite="spacejam/fungle" y="-495.895271409286" type="none" skewx="-5" scale="1.5" name="fungle"/>
 	<sprite x="-194" sprite="spacejam/spaceship-fire" y="229" scale="0.59" name="fire"/>
-	<sprite x="0.2410475308575" sprite="spacejam/spaceship-fire" y="-96.6666660661908"  scale="0.407713496968386" name="fire2"/>
-	<sprite x="5170.23613592768" sprite="spacejam/store" y="-524.354159824439" scale="2.48437533627758" name="store-ig" alpha="0"/>
+	<sprite x="0.2410475308575" sprite="spacejam/spaceship-fire" y="-96.6666660661908" scale="0.407713496968386" name="fire2"/>
+	<sprite x="5170.23613592768" sprite="spacejam/store" y="-524.354159824439" alpha="0" scale="2.48437533627758" name="store-ig"/>
 	<sprite type="none" sprite="spacejam/spaceship-back" name="shit-back"/>
 	<girlfriend x="-1302" y="137"/>
 	<dad x="1230" y="50"/>

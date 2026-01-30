@@ -111,17 +111,17 @@ function update(elapsed:Float) {
 function beatHit(curBeat:Int) {
     logo.playAnim('idle', true);
     
-    if (curBeat == 16) FlxG.camera.flash(FlxColor.WHITE, 1);
-    if (curBeat % 2 == 0) menuBG.playAnim('e'+Math.floor(curBeat/2));
-    if (curBeat == 16) {
+    if (curBeat == 14) FlxG.camera.flash(FlxColor.WHITE, 1);
+    if (curBeat % 2 == 0) menuBG.playAnim('e'+(Math.floor(curBeat/2)+1));
+    if (curBeat == 14) {
         FlxTween.tween(enter, {y: FlxG.height - 200}, 2, { startDelay: 0.5, ease: FlxEase.expoInOut });
         FlxTween.tween(logo, {y: logo.y+FlxG.height-50}, 2, { ease: FlxEase.expoOut });
     }
-    if (curBeat == 8) add(collab);
-    if (curBeat == 10) collab.visible = false;
-    if (curBeat == 11) tities.visible = true;
-    if (curBeat == 12) tities2.visible = true;
-    if (curBeat == 14) { tities.visible = false; tities2.visible = false;}
+    if (curBeat == 6) add(collab);
+    if (curBeat == 8) collab.visible = false;
+    if (curBeat == 9) tities.visible = true;
+    if (curBeat == 10) tities2.visible = true;
+    if (curBeat == 12) { tities.visible = false; tities2.visible = false;}
 
 	//tities.text = titleLines[curBeat - 1];
     //if (tities.text != null && tities.text != "") tities.text = tities.text.replace("wacky1", curWacky[0]).replace("wacky2", curWacky[1]);

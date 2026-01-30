@@ -9,6 +9,8 @@ var black:FlxSprite;
 var sexySpace:CustomShader;
 
 function create() {
+  
+    FlxG.camera.bgColor = 0xFF000000;
     
     sexySpace = new CustomShader("space");
 
@@ -41,6 +43,11 @@ function postCreate() {
 
     stage.getSprite("fire").blend = BlendMode.ADD;
     stage.getSprite("fire2").blend = BlendMode.ADD;
+
+    stage.getSprite("earth").visible = false;
+    stage.getSprite("polus").visible = false;
+    stage.getSprite("mira").visible = false;
+    stage.getSprite("fungle").visible = false;
 }
 var __timer:Float = 0; 
 
@@ -60,7 +67,7 @@ function update(elapsed:Float) {
     //camGame.angle = Math.sin(changing*0.01)*20;
 }
 function stepHit(curStep) {
-    if (curStep % 60 == 58 && curStep > 268 && curStep < 1948) spawnGuy();
+    if (curStep % 60 == 58 && curStep > 268 && curStep < 1141) spawnGuy();
     if (curStep == 1) {
         for (sl in strumLines.members) { for (note in sl.members) { note.alpha = 0; }}; 
         //FlxTween.tween(camGame, {angle: 0},40, { ease: FlxEase.expoOut });
@@ -81,6 +88,7 @@ function stepHit(curStep) {
         //spacef.velocity.y = -10;
         //spacef.alpha = 0.5;
         sexySpace.speed = 0.001;
+        stage.getSprite("fungle").visible = false; space.visible = true;
         
         space.loadGraphic(Paths.image('stages/spacejam/space-2'));
         spacef.loadGraphic(Paths.image('stages/spacejam/space-f-2'));
@@ -100,4 +108,12 @@ function spawnGuy() {
     add(guy);
     guy.scale.x = guy.scale.y = 3;
     FlxTween.tween(guy, {x: FlxG.width*-5, angle: 360*2}, 2, { ease: FlxEase.linear, onComplete:function(twn:FlxTween) {guy.destroy();} });
+}
+function sight(name) {
+    stage.getSprite("earth").visible = false; stage.getSprite("polus").visible = false; stage.getSprite("mira").visible = false;  stage.getSprite("fungle").visible = false; space.visible = false;
+    
+    FlxG.camera.flash(FlxColor.WHITE, 1);
+    var thing = stage.getSprite(name);
+    thing.visible = true;
+    FlxTween.tween(thing, {x: thing.x - 500},30, { ease: FlxEase.linear });
 }
