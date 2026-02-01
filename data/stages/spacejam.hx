@@ -67,7 +67,9 @@ function update(elapsed:Float) {
     //camGame.angle = Math.sin(changing*0.01)*20;
 }
 function stepHit(curStep) {
-    if (curStep % 60 == 58 && curStep > 268 && curStep < 1141) spawnGuy();
+    //So this is really cool and has characters fly across the screen but the artist hates them so ig we wont have them anymore :Ɛ
+    //if (curStep % 60 == 58 && curStep > 268 && curStep < 1141) spawnGuy();
+    
     if (curStep == 1) {
         for (sl in strumLines.members) { for (note in sl.members) { note.alpha = 0; }}; 
         //FlxTween.tween(camGame, {angle: 0},40, { ease: FlxEase.expoOut });
